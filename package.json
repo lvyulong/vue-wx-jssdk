@@ -1,0 +1,36 @@
+{
+  "name": "vue-wx",
+  "version": "1.0.0",
+  "description": "处理微信jssdk的使用问题",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvyulong/vue-wx.git"
+  },
+  "keywords": [
+    "vue",
+    "wweixin-jssdk"
+  ],
+  "author": "lvyulong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvyulong/vue-wx/issues"
+  },
+  "homepage": "https://github.com/lvyulong/vue-wx#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "weixin-js-sdk": "^1.4.0-test"
+  }
+}
