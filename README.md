@@ -48,7 +48,8 @@ const options = {
     
         config:axios.get('/auth/base'),
         
-        // path指定如何从promise返回值中拿到符合格式的object
+        // 如果config是promise，path需要指定如何从promise返回值中拿到符合格式的object;
+        // 如果config是一个object，则无需指定path值
         path:'data.data.wx',
         
         // 声明用到的微信api
