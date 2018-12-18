@@ -1,7 +1,6 @@
 import wx from 'weixin-js-sdk';
 const wxPlugin = {};
 wxPlugin.install = function (Vue, options) {
-    alert("确认分享吗？");
     function extend(obj1, obj2) {
         for (var k in obj2){
             if (obj1.hasOwnProperty(k)) {
