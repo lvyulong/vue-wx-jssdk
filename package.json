@@ -1,6 +1,6 @@
 {
   "name": "vue-wx-jssdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "处理微信jssdk的使用问题",
   "main": "dist/index.js",
   "scripts": {
