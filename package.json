@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lvyulong/vue-wx.git"
+    "url": "git+https://github.com/lvyulong/vue-wx-jssdk.git"
   },
   "keywords": [
     "vue",
@@ -18,9 +18,9 @@
   "author": "lvyulong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lvyulong/vue-wx/issues"
+    "url": "https://github.com/lvyulong/vue-wx-jssdk/issues"
   },
-  "homepage": "https://github.com/lvyulong/vue-wx#readme",
+  "homepage": "https://github.com/lvyulong/vue-wx-jssdk#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
