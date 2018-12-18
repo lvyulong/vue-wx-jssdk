@@ -18,7 +18,7 @@ main.js文件
 ```javascript
 import Vue from 'vue';
 import wxjssdkPlugin from 'vue-wx-jssdk';
-
+import axios from 'axios';
 const options = {
         
         /*
