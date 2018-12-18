@@ -2,18 +2,18 @@
 
 ### 一、Introduction
 
-微信端项目经常会用到weixin-js-sdk来使用微信的一些接口，比如微信分享（onMenuShareAppMessage，onMenuShareTimeline..）、
-拍照或从手机相册中选图接口（chooseImage）、录音接口（startRecord、stopRecord）等等。该插件是为了处理在vue项目中能更方便得使用weixin-js-sdk。
+微信端项目经常需要使用weixin-js-sdk来调用微信的一些接口，比如微信分享接口（onMenuShareAppMessage，onMenuShareTimeline..）、
+拍照或从手机相册中选图接口（chooseImage）、录音接口（startRecord、stopRecord）等等。该插件是为了能在vue项目中能更方便地使用weixin-js-sdk。
 
-二、Usage
+### 二、Usage
 
-1、下载
+#### 1、下载
 
 ```javascript
 npm install vue-wx-jssdk --save
 ```
 
-2、引入项目并配置
+#### 2、引入项目并配置
 main.js文件
 ```javascript
 import Vue from 'vue';
@@ -58,7 +58,7 @@ const options = {
 Vue.use(wxjssdkPlugin,options);
 
 ```
-3、使用接口
+#### 3、使用接口
 
 ##### （1）在最外层的vue实例上使用：
 ```javascript
